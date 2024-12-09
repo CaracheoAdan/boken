@@ -3,7 +3,7 @@ require_once ('prenda.class.php');
 require_once ('categoria.class.php');
 $appPrenda = new prenda();
 $app = new prenda();
-// $app -> checkRole('Administrador');
+ $app -> checkRole('Administrador');
 
 
 $accion = (isset($_GET['accion']))?$_GET['accion'] : NULL;
